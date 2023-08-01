@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon_clone.css" >
+</head>
+
+
+<body>
+    <header>
+        <div id="nav" >
+            <div class=" nav_item1-width" >
+                <a class="logo" href="#" > </a>
+            </div>
+            <div class="nav_item nav_item2-width" >
+                <a class="border location flex" href="https://www.google.com/maps/" >
+                    <span style="transform: scale(0.9);" >
+                        <span class="add-1" >Deliver to</span>
+                        <div class="symbol" >
+                            <i class="fa-solid fa-location-dot" id="sym" ></i>
+                            <span class="add-2" >India</span>
+                        </div>
+                    </span>
+                </a>
+            </div>
+            <div class="nav_item nav_item3-width flex" >
+                <div class="search-div flex" >
+                    <select class="option" name="category">
+                        <option class="option-bg" >All</option>
+                        <option class="option-bg" >Art and craft</option>
+                        <option class="option-bg" >Baby</option>
+                        <option class="option-bg" >Beauty & Personal Care</option>
+                        <option class="option-bg" >Books</option>
+                        <option class="option-bg" >Electronics</option>
+                        <option class="option-bg" >Toys & Games</option>
+                    </select>
+                    <input type="search"  placeholder="Search Amazon" maxlength="50" class="search" name="search" >
+                    <button type="submit" name="submitsymbol" class="search-symbol"><i class="fa-solid fa-magnifying-glass" style="color: black;transform: scale(1.5);" ></i></button>
+                </div>
+            </div>
+            <a class="lang border flex" href="#" >
+                <div class="flag flex" ></div>
+                <select class="lang-div flex" >
+                    <option>EN</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </a>
+            <a class="border account-anchor" href="#" >
+                <div class="account-line1" >Hello, sign in</div>
+                <div class="account-line2" >Accounts & Lists</div>
+            </a>
+            <a class="border returns" href="#" >
+                <div class="returns-line1" >Returns</div>
+                <div class="returns-line2" >& Orders</div>
+            </a>
+            <a class="border nav-cart" href="#" >
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </a>
+        </div>
+        <div class="nav2" >
+            <a class="nav2-box1 flex border" >
+                <i class="fa-solid fa-bars"></i>
+                <span class="flex" >All</span>
+            </a>
+            <div class="nav2-box2" >
+                <a class="border nav2-box2-common flex " href="#Today's Deals" style="width: 102px;" >
+                    <span>Today's Deals</span>
+                </a>
+                <a class="border nav2-box2-common flex " style="width: 128px;" >
+                    <span>Customer Service</span>
+                </a>
+                <a class="border nav2-box2-common flex " style="width: 70px;" >
+                    <span>Registry</span>
+                </a>
+                <a class="border nav2-box2-common flex " style="width: 81px;" >
+                    <span>Gift Cards</span>
+                </a>
+                <a class="border nav2-box2-common flex " style="width: 41px;" >
+                    <span>Sell</span>
+                </a>
+            </div>
+            <a class="nav2-box3 border flex" >
+                <span>Shop deals in Electronics</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-msg flex">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.com/" > Click here to go to amazon.in</a></div>
+        </div>
+        <section class="shopsection" style="background-color: #e2e7e6;">
+            <div class="section-div-forboxes" style="position: relative;bottom: 300px;margin-top: 10px;">
+                <div class="box">
+                    <h2>Beauty Picks</h2>
+                    <div class="box1-img" style="background-image: url('beautypicks.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >See more</a>
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>Shop Pet supplies</h2>
+                    <div class="box1-img" style="background-image: url('petcare.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Shop now</a>
+                        
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>Smartwatches</h2>
+                    <div class="box1-img" style="background-image: url('watches.png');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Explore more</a>
+                    
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>Discover fashion trends</h2>
+                    <div class="box1-img" style="background-image: url('fashiontrends.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Shop now</a>
+                        
+                    </span>
+                </div>
+                <div class="section-div1-bg" ></div>
+                <div class="section-div1-bg" style="bottom: 160px; height: 230px;width: 650px;left: 0px ;background: linear-gradient(rgba(30, 36, 53,0.01),#e2e7e6);"></div>
+                <div class="section-div1-bg" style="bottom: 160px; height: 230px;width: 800px;right: 0px ;background: linear-gradient(rgba(7, 153, 244, 0.01),#e2e7e6);"></div>
+            </div>
+
+            <div class="section-div-forboxes" style="position: relative;bottom: 300px;background-color: #e2e7e6;">
+                <div class="box">
+                    <h2>New arrivals in toys</h2>
+                    <div class="box1-img" style="background-image: url('toys.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >See more</a>
+                        
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>Health & Personal Care</h2>
+                    <div class="box1-img" style="background-image: url('health&personalcare.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Shop now</a>
+                        
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>For your fitness needs</h2>
+                    <div class="box1-img" style="background-image: url('fitness.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Explore more</a>
+                        
+                    </span>
+                </div>
+                <div class="box">
+                    <h2>Furnitures & home-decor</h2>
+                    <div class="box1-img" style="background-image: url('homedecor.jpg');"></div>
+                    <span>
+                        <a class="seemore" href="#" >Shop now</a>
+                        
+                    </span>
+                </div>
+            </div>
+            <div id="Today's Deals" style="height: 100vh;position: relative;bottom: 300px;background-color: #e2e7e6;display: flex;justify-content: center;align-items: center;z-index: 5;">
+                <div id="todaysdeals-section" >
+                    <h2 style="padding-left: 15px;">Today's deals  <i class="fa-solid fa-bolt-lightning" style="color: #d04666;"></i></h2>
+                    <div class="todaysdeals-div">
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals1.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >34% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>18.42</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$28.00</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >SweatyRocks Women's Planet Print Hoodies Top</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals2.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >35% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>25.99</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$39.96</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >Philips One by Sonicare Battery Toothbrush, Midnight Blue, HY1100/04</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals3.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >30% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>13.99</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$19.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >MontoPack Unscented Tea Lights Candles in Bulk</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals4.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >41% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>1199.88</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$1999.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >ASUS ROG Strix G17 Gaming Laptop, AMD Ryzen 9 5900HX Processor</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals5.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >43% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>19.99</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$35.55</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >PUMA Evercat Form Factor Duffel Bag
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="todaysdeals-div">
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals6.jpg" width="80%" height="180" >
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >56% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>2399.00</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$5489.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >DJI Mavic 3 Classic (DJI RC) + Fly More Combo | 92 min Flight Time</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals7.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >46% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>39.99</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$73.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >EMEET Bluetooth Speakerphone M3, Zoom Certified, Pickup 18H Talk</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals8.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >41% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>189.42</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$319.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >Logitech G733 K/DA Lightspeed Wireless Gaming Headset</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals9.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >42% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>22.22</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$38.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >Dollar Shave Club | Double Header Trimmer | Waterproof Body Shaver</span>
+                            </div>
+                        </div>
+                        <div class="todaysdeals-box">
+                            <div class="todaysdeals-img" >
+                                <img src="excitingdeals10.jpg" width="80%" height="180">
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" style="align-items: flex-end;" >
+                                <span style="font-size: 12px;background-color: #cc0c39;border-radius: 2px;margin-right: 5px;margin-bottom: 1px;padding: 4px 6px;" >54% off</span><span style="font-size: 12px;color: #cc0c39;margin-right: 40px;margin-bottom:4px;" >Deal</span><span class="todaysdeals-addtocart">Add to cart</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="font-size: 17px;margin-right: 5px;color: #0f1111;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>11.00</span><span style="font-size: 11px;color: #565959;margin-right: 4px;font-weight: 600;" >List Price:</span><span style="font-size: 11px;font-weight: 600;color: #565959;text-decoration: line-through;" >$23.99</span>
+                            </div>
+                            <div class="todaysdeals-box-innerdiv" >
+                                <span style="color: #0f1111;font-size: 12px;" >The Affirmatos Mysteries Books 5-8 (Boxcar Children)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div style="color: #0f1111;background-color: #e2e7e6;height: 0px;display: flex;flex-direction: column;align-items: center;" >
+                <div class="books-section" >
+                    <h2 style="margin-top: 10px;margin-bottom: 5px;">Popular Books</h2>
+                    <div class="books-div">
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book1.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Stop Overthinking!</span><span style="color: #0f1111;font-size: 12px;">Techniques to Relieve Stress</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>10.99</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book2.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Can't Hurt Me:</span><span style="color: #0f1111;font-size: 12px;">Master Your Mind</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>19.99</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book3.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Topgun:</span><span style="color: #0f1111;font-size: 12px;">An American Story</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>14.95</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book4.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Verity</span><span style="color: #0f1111;font-size: 12px;">Colleen Hoover</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>10.49</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book5.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Twenty Years Later:</span><span style="color: #0f1111;font-size: 12px;">A Riveting New Thriller</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>14.49</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book6.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Into the Abyss:</span><span style="color: #0f1111;font-size: 12px;">Techniques to Relieve Stress</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>11.89</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book7.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">If You Tell:</span><span style="color: #0f1111;font-size: 12px;">A True Story exists</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>11.99</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                        <div class="books-box">
+                            <div style="height: 60%;width: 100%;display: flex;justify-content: center;"><img style="height: 100%;width: 60%;" src="book8.jpg"></div>
+                            <div style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;"><span style="color: #0f1111;font-size: 12px;padding-top: 4px;">Feral Eyes:</span><span style="color: #0f1111;font-size: 12px;">Book One (The NIA Series 1)</span></div>
+                            <span style="font-size: 17px;margin-right: 12px;margin-left: 12px;color: #0f1111;position: relative;top: 9px;" ><sup style="color: #0f1111;font-size: 11px;">$</sup>16.99</span>
+                            <span class="todaysdeals-addtocart" style="position: relative;top: 7px;">Add to cart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <Section id="foundersinfo" >
+            <b>Designed & Developed By</b>
+            <p>Hanish Mittal</p>
+            <span style="position: relative;top: 20px;" >
+                <a href="https://www.instagram.com/hanish_mittal_/" target="_blank" > <img src="Insta_logo.jpg" width="20px" > hanish_mittal_ </a> &nbsp; | &nbsp; <a href="https://www.linkedin.com/in/hanish-mittal-8b4751278/" target="_blank" > <img src="linkedin_logo.jpg" width="20px" > Hanish Mittal </a>
+            </span>
+        </Section>
+    </main>
+    <footer class="footer" >
+        <br>
+        <a href="#" ><div  class="backtotop">Back To Top</div></a>
+        <div class="footer-mid-div">
+            <span>
+                <h3>Get to Know Us</h3>
+                <br>
+                <a href="#">Careers</a>
+                <br>
+                <a href="#">Blog</a>
+                <br>
+                <a href="#">About Amazon</a>
+                <br>
+                <a href="#">Investor Relations</a>
+                <br>
+                <a href="#">Amazon Devices</a>
+                <br>
+                <a href="#">Amazon Science</a>
+            </span>
+            <span>
+                <h3>Make Money with Us</h3>
+                <br>
+                <a href="#">Sell products on Amazon</a>
+                <br>
+                <a href="#">Sell on Amazon Business</a>
+                <br>
+                <a href="#">Sell apps on Amazon</a>
+                <br>
+                <a href="#">Become an Affiliate</a>
+                <br>
+                <a href="#">Advertise Your Products</a>
+                <br>
+                <a href="#">Self-Publish with Us</a>
+                <br>
+                <a href="#">Host an Amazon Hub</a>
+            </span>
+            <span>
+                <h3>Amazon Payment Products</h3>
+                <br>
+                <a href="#">Amazon Business Card</a>
+                <br>
+                <a href="#">Shop with Points</a>
+                <br>
+                <a href="#">Reload Your Balance</a>
+                <br>
+                <a href="#">Amazon Currency Converter</a>
+            </span>
+            <span>
+                <h3>Let Us Help You</h3>
+                <br>
+                <a href="#">Amazon and COVID-19</a>
+                <br>
+                <a href="#">Your Account</a>
+                <br>
+                <a href="#">Your Orders</a>
+                <br>
+                <a href="#">Shipping Rates & Policies</a>
+                <br>
+                <a href="#">Returns & Replacements</a>
+                <br>
+                <a href="#">Manage Your Content and Devices</a>
+                <br>
+                <a href="#">Amazon Assistant</a>
+                <br>
+                <a href="#">Help</a>
+            </span>
+        </div>
+        <div class="footer-last-div" >
+            <span>
+                <a> <img src="amazon_logo.png" width="100px" > </a>
+            </span>
+            
+        </div>
+    </footer>
+</body>
+</html>
